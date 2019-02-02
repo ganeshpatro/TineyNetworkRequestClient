@@ -15,6 +15,7 @@
 		1FC2ADE22205CCE800A762E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC2ADE02205CCE800A762E2 /* LaunchScreen.storyboard */; };
 		1FC2ADED2205CCE800A762E2 /* TinyNetworkRequestClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2ADEC2205CCE800A762E2 /* TinyNetworkRequestClientTests.swift */; };
 		1FC2ADF82205CCE800A762E2 /* TinyNetworkRequestClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2ADF72205CCE800A762E2 /* TinyNetworkRequestClientUITests.swift */; };
+		1FC2AE072205D0F500A762E2 /* NetworkRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2AE062205D0F500A762E2 /* NetworkRequestManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1FC2ADF32205CCE800A762E2 /* TinyNetworkRequestClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyNetworkRequestClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC2ADF72205CCE800A762E2 /* TinyNetworkRequestClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyNetworkRequestClientUITests.swift; sourceTree = "<group>"; };
 		1FC2ADF92205CCE800A762E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC2AE062205D0F500A762E2 /* NetworkRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		1FC2ADD32205CCE700A762E2 /* TinyNetworkRequestClient */ = {
 			isa = PBXGroup;
 			children = (
+				1FC2AE052205CCF600A762E2 /* NetworkCommunication */,
 				1FC2ADD42205CCE700A762E2 /* AppDelegate.swift */,
 				1FC2ADD62205CCE700A762E2 /* ViewController.swift */,
 				1FC2ADD82205CCE700A762E2 /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				1FC2ADF92205CCE800A762E2 /* Info.plist */,
 			);
 			path = TinyNetworkRequestClientUITests;
+			sourceTree = "<group>";
+		};
+		1FC2AE052205CCF600A762E2 /* NetworkCommunication */ = {
+			isa = PBXGroup;
+			children = (
+				1FC2AE062205D0F500A762E2 /* NetworkRequestManager.swift */,
+			);
+			path = NetworkCommunication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FC2AE072205D0F500A762E2 /* NetworkRequestManager.swift in Sources */,
 				1FC2ADD72205CCE700A762E2 /* ViewController.swift in Sources */,
 				1FC2ADD52205CCE700A762E2 /* AppDelegate.swift in Sources */,
 				1FC2ADDD2205CCE700A762E2 /* TinyNetworkRequestClient.xcdatamodeld in Sources */,
