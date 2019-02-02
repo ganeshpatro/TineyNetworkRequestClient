@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FC2ADD52205CCE700A762E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2ADD42205CCE700A762E2 /* AppDelegate.swift */; };
+		1FC2ADD72205CCE700A762E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2ADD62205CCE700A762E2 /* ViewController.swift */; };
+		1FC2ADDA2205CCE700A762E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC2ADD82205CCE700A762E2 /* Main.storyboard */; };
+		1FC2ADDD2205CCE700A762E2 /* TinyNetworkRequestClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2ADDB2205CCE700A762E2 /* TinyNetworkRequestClient.xcdatamodeld */; };
+		1FC2ADDF2205CCE800A762E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC2ADDE2205CCE800A762E2 /* Assets.xcassets */; };
+		1FC2ADE22205CCE800A762E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC2ADE02205CCE800A762E2 /* LaunchScreen.storyboard */; };
+		1FC2ADED2205CCE800A762E2 /* TinyNetworkRequestClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2ADEC2205CCE800A762E2 /* TinyNetworkRequestClientTests.swift */; };
+		1FC2ADF82205CCE800A762E2 /* TinyNetworkRequestClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC2ADF72205CCE800A762E2 /* TinyNetworkRequestClientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FC2ADE92205CCE800A762E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC2ADC92205CCE700A762E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC2ADD02205CCE700A762E2;
+			remoteInfo = TinyNetworkRequestClient;
+		};
+		1FC2ADF42205CCE800A762E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC2ADC92205CCE700A762E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC2ADD02205CCE700A762E2;
+			remoteInfo = TinyNetworkRequestClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FC2ADD12205CCE700A762E2 /* TinyNetworkRequestClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyNetworkRequestClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC2ADD42205CCE700A762E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FC2ADD62205CCE700A762E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FC2ADD92205CCE700A762E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FC2ADDC2205CCE700A762E2 /* TinyNetworkRequestClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TinyNetworkRequestClient.xcdatamodel; sourceTree = "<group>"; };
+		1FC2ADDE2205CCE800A762E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FC2ADE12205CCE800A762E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FC2ADE32205CCE800A762E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC2ADE82205CCE800A762E2 /* TinyNetworkRequestClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyNetworkRequestClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC2ADEC2205CCE800A762E2 /* TinyNetworkRequestClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyNetworkRequestClientTests.swift; sourceTree = "<group>"; };
+		1FC2ADEE2205CCE800A762E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC2ADF32205CCE800A762E2 /* TinyNetworkRequestClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinyNetworkRequestClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC2ADF72205CCE800A762E2 /* TinyNetworkRequestClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinyNetworkRequestClientUITests.swift; sourceTree = "<group>"; };
+		1FC2ADF92205CCE800A762E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FC2ADCE2205CCE700A762E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC2ADE52205CCE800A762E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC2ADF02205CCE800A762E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FC2ADC82205CCE700A762E2 = {
+			isa = PBXGroup;
+			children = (
+				1FC2ADD32205CCE700A762E2 /* TinyNetworkRequestClient */,
+				1FC2ADEB2205CCE800A762E2 /* TinyNetworkRequestClientTests */,
+				1FC2ADF62205CCE800A762E2 /* TinyNetworkRequestClientUITests */,
+				1FC2ADD22205CCE700A762E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FC2ADD22205CCE700A762E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FC2ADD12205CCE700A762E2 /* TinyNetworkRequestClient.app */,
+				1FC2ADE82205CCE800A762E2 /* TinyNetworkRequestClientTests.xctest */,
+				1FC2ADF32205CCE800A762E2 /* TinyNetworkRequestClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FC2ADD32205CCE700A762E2 /* TinyNetworkRequestClient */ = {
+			isa = PBXGroup;
+			children = (
+				1FC2ADD42205CCE700A762E2 /* AppDelegate.swift */,
+				1FC2ADD62205CCE700A762E2 /* ViewController.swift */,
+				1FC2ADD82205CCE700A762E2 /* Main.storyboard */,
+				1FC2ADDE2205CCE800A762E2 /* Assets.xcassets */,
+				1FC2ADE02205CCE800A762E2 /* LaunchScreen.storyboard */,
+				1FC2ADE32205CCE800A762E2 /* Info.plist */,
+				1FC2ADDB2205CCE700A762E2 /* TinyNetworkRequestClient.xcdatamodeld */,
+			);
+			path = TinyNetworkRequestClient;
+			sourceTree = "<group>";
+		};
+		1FC2ADEB2205CCE800A762E2 /* TinyNetworkRequestClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FC2ADEC2205CCE800A762E2 /* TinyNetworkRequestClientTests.swift */,
+				1FC2ADEE2205CCE800A762E2 /* Info.plist */,
+			);
+			path = TinyNetworkRequestClientTests;
+			sourceTree = "<group>";
+		};
+		1FC2ADF62205CCE800A762E2 /* TinyNetworkRequestClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FC2ADF72205CCE800A762E2 /* TinyNetworkRequestClientUITests.swift */,
+				1FC2ADF92205CCE800A762E2 /* Info.plist */,
+			);
+			path = TinyNetworkRequestClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FC2ADD02205CCE700A762E2 /* TinyNetworkRequestClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC2ADFC2205CCE800A762E2 /* Build configuration list for PBXNativeTarget "TinyNetworkRequestClient" */;
+			buildPhases = (
+				1FC2ADCD2205CCE700A762E2 /* Sources */,
+				1FC2ADCE2205CCE700A762E2 /* Frameworks */,
+				1FC2ADCF2205CCE700A762E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyNetworkRequestClient;
+			productName = TinyNetworkRequestClient;
+			productReference = 1FC2ADD12205CCE700A762E2 /* TinyNetworkRequestClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FC2ADE72205CCE800A762E2 /* TinyNetworkRequestClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC2ADFF2205CCE800A762E2 /* Build configuration list for PBXNativeTarget "TinyNetworkRequestClientTests" */;
+			buildPhases = (
+				1FC2ADE42205CCE800A762E2 /* Sources */,
+				1FC2ADE52205CCE800A762E2 /* Frameworks */,
+				1FC2ADE62205CCE800A762E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FC2ADEA2205CCE800A762E2 /* PBXTargetDependency */,
+			);
+			name = TinyNetworkRequestClientTests;
+			productName = TinyNetworkRequestClientTests;
+			productReference = 1FC2ADE82205CCE800A762E2 /* TinyNetworkRequestClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FC2ADF22205CCE800A762E2 /* TinyNetworkRequestClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC2AE022205CCE800A762E2 /* Build configuration list for PBXNativeTarget "TinyNetworkRequestClientUITests" */;
+			buildPhases = (
+				1FC2ADEF2205CCE800A762E2 /* Sources */,
+				1FC2ADF02205CCE800A762E2 /* Frameworks */,
+				1FC2ADF12205CCE800A762E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FC2ADF52205CCE800A762E2 /* PBXTargetDependency */,
+			);
+			name = TinyNetworkRequestClientUITests;
+			productName = TinyNetworkRequestClientUITests;
+			productReference = 1FC2ADF32205CCE800A762E2 /* TinyNetworkRequestClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FC2ADC92205CCE700A762E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Ganesh;
+				TargetAttributes = {
+					1FC2ADD02205CCE700A762E2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1FC2ADE72205CCE800A762E2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1FC2ADD02205CCE700A762E2;
+					};
+					1FC2ADF22205CCE800A762E2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1FC2ADD02205CCE700A762E2;
+					};
+				};
+			};
+			buildConfigurationList = 1FC2ADCC2205CCE700A762E2 /* Build configuration list for PBXProject "TinyNetworkRequestClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FC2ADC82205CCE700A762E2;
+			productRefGroup = 1FC2ADD22205CCE700A762E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FC2ADD02205CCE700A762E2 /* TinyNetworkRequestClient */,
+				1FC2ADE72205CCE800A762E2 /* TinyNetworkRequestClientTests */,
+				1FC2ADF22205CCE800A762E2 /* TinyNetworkRequestClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FC2ADCF2205CCE700A762E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC2ADE22205CCE800A762E2 /* LaunchScreen.storyboard in Resources */,
+				1FC2ADDF2205CCE800A762E2 /* Assets.xcassets in Resources */,
+				1FC2ADDA2205CCE700A762E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC2ADE62205CCE800A762E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC2ADF12205CCE800A762E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FC2ADCD2205CCE700A762E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC2ADD72205CCE700A762E2 /* ViewController.swift in Sources */,
+				1FC2ADD52205CCE700A762E2 /* AppDelegate.swift in Sources */,
+				1FC2ADDD2205CCE700A762E2 /* TinyNetworkRequestClient.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC2ADE42205CCE800A762E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC2ADED2205CCE800A762E2 /* TinyNetworkRequestClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC2ADEF2205CCE800A762E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC2ADF82205CCE800A762E2 /* TinyNetworkRequestClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FC2ADEA2205CCE800A762E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC2ADD02205CCE700A762E2 /* TinyNetworkRequestClient */;
+			targetProxy = 1FC2ADE92205CCE800A762E2 /* PBXContainerItemProxy */;
+		};
+		1FC2ADF52205CCE800A762E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC2ADD02205CCE700A762E2 /* TinyNetworkRequestClient */;
+			targetProxy = 1FC2ADF42205CCE800A762E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FC2ADD82205CCE700A762E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC2ADD92205CCE700A762E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FC2ADE02205CCE800A762E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC2ADE12205CCE800A762E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FC2ADFA2205CCE800A762E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FC2ADFB2205CCE800A762E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FC2ADFD2205CCE800A762E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TinyNetworkRequestClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkpservices.TinyNetworkRequestClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FC2ADFE2205CCE800A762E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TinyNetworkRequestClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkpservices.TinyNetworkRequestClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FC2AE002205CCE800A762E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TinyNetworkRequestClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkpservices.TinyNetworkRequestClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyNetworkRequestClient.app/TinyNetworkRequestClient";
+			};
+			name = Debug;
+		};
+		1FC2AE012205CCE800A762E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TinyNetworkRequestClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkpservices.TinyNetworkRequestClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TinyNetworkRequestClient.app/TinyNetworkRequestClient";
+			};
+			name = Release;
+		};
+		1FC2AE032205CCE800A762E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TinyNetworkRequestClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkpservices.TinyNetworkRequestClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinyNetworkRequestClient;
+			};
+			name = Debug;
+		};
+		1FC2AE042205CCE800A762E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TinyNetworkRequestClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gkpservices.TinyNetworkRequestClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TinyNetworkRequestClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FC2ADCC2205CCE700A762E2 /* Build configuration list for PBXProject "TinyNetworkRequestClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC2ADFA2205CCE800A762E2 /* Debug */,
+				1FC2ADFB2205CCE800A762E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC2ADFC2205CCE800A762E2 /* Build configuration list for PBXNativeTarget "TinyNetworkRequestClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC2ADFD2205CCE800A762E2 /* Debug */,
+				1FC2ADFE2205CCE800A762E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC2ADFF2205CCE800A762E2 /* Build configuration list for PBXNativeTarget "TinyNetworkRequestClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC2AE002205CCE800A762E2 /* Debug */,
+				1FC2AE012205CCE800A762E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC2AE022205CCE800A762E2 /* Build configuration list for PBXNativeTarget "TinyNetworkRequestClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC2AE032205CCE800A762E2 /* Debug */,
+				1FC2AE042205CCE800A762E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1FC2ADDB2205CCE700A762E2 /* TinyNetworkRequestClient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1FC2ADDC2205CCE700A762E2 /* TinyNetworkRequestClient.xcdatamodel */,
+			);
+			currentVersion = 1FC2ADDC2205CCE700A762E2 /* TinyNetworkRequestClient.xcdatamodel */;
+			path = TinyNetworkRequestClient.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1FC2ADC92205CCE700A762E2 /* Project object */;
+}
